@@ -52,8 +52,8 @@ You can get the URL by:
 
 - Right-clicking the movie cover and selecting **Copy Link**
 - Opening the movie page and copying the URL from your browser's address bar
-- 
-<img width="640" alt="image" src="https://github.com/jrl2222/Apple-Trailer-Downloader/blob/main/images/CopyLink.png" />
+  
+<img width="640" alt="image" src="https://github.com/jrl2222/Apple-Trailer-Downloader/blob/main/images/CopyLink.png" /><img width="640" alt="image" src="https://github.com/jrl2222/Apple-Trailer-Downloader/blob/main/images/CopyUrl.png" />
 
 ### 3. Run the PowerShell script
 
