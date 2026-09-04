@@ -85,6 +85,8 @@ School of Rock Trailer.mp4
 
 FFmpeg downloads the separate Apple video and audio streams and combines them into a single MP4 without re-encoding.
 
+<img width="640" alt="image" src="https://github.com/jrl2222/Apple-Trailer-Downloader/blob/main/images/Running.png" />
+
 When complete, the script displays the saved filename and file size.
 
 ## Jellyfin
