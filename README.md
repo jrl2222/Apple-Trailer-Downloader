@@ -26,11 +26,14 @@ Step 2. Get the main URL for a movie or show.
 
 Step 3. Run this Powershell file
 
-Step 4. Enter the url when asked hit enter
+Step 4. Enter the url when asked then hit enter
 
 Step 5. Choose where to save your trailer and change the name if you want
 
 Step 6. Enjoy
+<br>
+<br>
+
 
 <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/545b380c-db23-4f8d-8816-c01313925be5" />
 <br>
