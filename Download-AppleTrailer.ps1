@@ -13,7 +13,7 @@
 #       English AAC stereo audio
 #
 # Requires:
-#   ffmpeg.exe available in PATH
+#   ffmpeg.exe in the script folder or available in PATH
 # ============================================================
 
 
