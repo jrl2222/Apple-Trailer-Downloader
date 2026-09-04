@@ -1,14 +1,14 @@
-Requirements
+<b>Requirements<b>
 
-Windows 10 or Windows 11
-
-PowerShell 5.1 or PowerShell 7+
-
-FFmpeg (ffmpeg.exe)
-
-Internet connection
-
-Place ffmpeg.exe in the same folder as Download-AppleTrailer.ps1, or install FFmpeg and make sure it is available in your system PATH.
+        Windows 10 or Windows 11
+        
+        PowerShell 5.1 or PowerShell 7+
+        
+        FFmpeg (ffmpeg.exe)
+        
+        Internet connection
+        
+        Place ffmpeg.exe in the same folder as Download-AppleTrailer.ps1, or install FFmpeg and make sure it is available in your system PATH.
 
 
 This script will choose the best H.264 SDR stream at or below 1920 pixels wide
