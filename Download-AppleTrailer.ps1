@@ -79,22 +79,32 @@ if ([string]::IsNullOrWhiteSpace($MovieUrl)) {
 
 
 # ------------------------------------------------------------
-# Check FFmpeg
+# Find FFmpeg
 # ------------------------------------------------------------
 
-$FFmpeg = Get-Command ffmpeg.exe -ErrorAction SilentlyContinue
+$LocalFFmpeg = Join-Path $PSScriptRoot "ffmpeg.exe"
 
-if (-not $FFmpeg) {
-
-    Write-Host ""
-    Write-Host "ERROR: ffmpeg.exe was not found in PATH."
-    Write-Host ""
-    Write-Host "Install FFmpeg or add ffmpeg.exe to the system PATH."
-
-    Read-Host "Press Enter to exit"
-    exit 1
+if (Test-Path $LocalFFmpeg) {
+    $FFmpeg = $LocalFFmpeg
 }
+else {
+    $FFmpegCommand = Get-Command ffmpeg.exe -ErrorAction SilentlyContinue
 
+    if ($FFmpegCommand) {
+        $FFmpeg = $FFmpegCommand.Source
+    }
+    else {
+        Write-Host ""
+        Write-Host "ERROR: FFmpeg was not found."
+        Write-Host ""
+        Write-Host "Place ffmpeg.exe in the same folder as this script"
+        Write-Host "or install FFmpeg and add it to the system PATH."
+        Write-Host ""
+
+        Read-Host "Press Enter to exit"
+        exit 1
+    }
+}
 
 # ------------------------------------------------------------
 # Download Apple TV movie page
@@ -698,7 +708,7 @@ $FFmpegArgs = @(
     $OutputFile
 )
 
-& ffmpeg.exe @FFmpegArgs
+& $FFmpeg @FFmpegArgs
 
 
 # ------------------------------------------------------------
