@@ -1,4 +1,4 @@
-<b>Requirements<b>
+<b>Requirements</b>
 
         Windows 10 or Windows 11
         
