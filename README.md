@@ -15,7 +15,7 @@ Step 3. Run this Powershell file
 
 Step 4. Enter the url when asked hit enter
 
-Step 5. Choose where to save your trailer
+Step 5. Choose where to save your trailer and change the name if you want
 
 Step 6. Enjoy
 
@@ -23,4 +23,10 @@ Step 6. Enjoy
 <br>
 <br>
 <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/41b3ebdf-e0e0-4276-94f5-fd3362189a1c" />
+<br>
+<br>
+<img width="1115" height="628" alt="image" src="https://github.com/user-attachments/assets/de9ff671-57cc-4b57-81fd-477d0fe93952" />
+<br>
+<br>
+<img width="1115" height="629" alt="image" src="https://github.com/user-attachments/assets/8da37243-38bc-4b40-8d3e-258c1e819db1" />
 
