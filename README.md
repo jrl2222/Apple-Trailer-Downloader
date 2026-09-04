@@ -9,6 +9,7 @@ Step 2. Get the main URL for a movie or show.
 
         Ex. School of Rock    https://tv.apple.com/us/movie/school-of-rock/umc.cmc.im6cmmj5czmu1lrpj820whud
         This can be done by right clicking the cover art and Copy Link or from the movies page and grab the URL from the address bar
+        See images below
 
 Step 3. Run this Powershell file
 
