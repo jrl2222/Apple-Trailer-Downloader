@@ -48,9 +48,9 @@ For example, **School of Rock**:
 https://tv.apple.com/us/movie/school-of-rock/umc.cmc.im6cmmj5czmu1lrpj820whud
 ```
 
-You can get the URL by:
+You can get the URL in one of two ways:
 
-- Right-clicking the movie cover and selecting **Copy Link**
+- Right-clicking the movie cover and selecting **Copy Link** 
 - Opening the movie page and copying the URL from your browser's address bar
   
 <img width="640" alt="image" src="https://github.com/jrl2222/Apple-Trailer-Downloader/blob/main/images/CopyLink.png" /><img width="640" alt="image" src="https://github.com/jrl2222/Apple-Trailer-Downloader/blob/main/images/CopyUrl.png" />
