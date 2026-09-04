@@ -20,5 +20,6 @@ Step 5. Choose where to save your trailer
 Step 6. Enjoy
 
 <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/545b380c-db23-4f8d-8816-c01313925be5" />
+
 <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/41b3ebdf-e0e0-4276-94f5-fd3362189a1c" />
 
